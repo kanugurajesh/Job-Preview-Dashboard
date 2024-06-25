@@ -9,7 +9,7 @@ const List = () => {
       <ul className="w-[590px] h-[27px] flex justify-between text-[#888888] relative">
         <li
           onClick={() => setActiveTab(0)}
-          className={`cursor-pointer ${
+          className={`cursor-pointer transition-all ease-in-out duration-300 ${
             activeTab == 0 ? "font-semibold text-[#DC4A2D]" : "font-medium"
           }`}
         >
@@ -17,7 +17,7 @@ const List = () => {
         </li>
         <li
           onClick={() => setActiveTab(1)}
-          className={`cursor-pointer ${
+          className={`cursor-pointer transition-all ease-in-out duration-300 ${
             activeTab == 1 ? "font-semibold text-[#DC4A2D]" : "font-medium"
           }`}
         >
@@ -25,7 +25,7 @@ const List = () => {
         </li>
         <li
           onClick={() => setActiveTab(2)}
-          className={`cursor-pointer ${
+          className={`cursor-pointer transition-all ease-in-out duration-300 ${
             activeTab == 2 ? "font-semibold text-[#DC4A2D]" : "font-medium"
           }`}
         >
@@ -33,7 +33,7 @@ const List = () => {
         </li>
         <li
           onClick={() => setActiveTab(3)}
-          className={`cursor-pointer ${
+          className={`cursor-pointer transition-all ease-in-out duration-300 ${
             activeTab == 3 ? "font-semibold text-[#DC4A2D]" : "font-medium"
           }`}
         >
