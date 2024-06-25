@@ -23,6 +23,14 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <div className="w-[134px] h-[60px] flex items-center gap-[16px] p-[10px] relative">
+        <Image src="/bell.svg" width={32} height={32} alt="" />
+        <div className="absolute w-[6px] h-[6px] rounded-full bg-[#DC4A2D] top-3 left-7"></div>
+        <div className="flex items-center justify-center gap-[6px]">
+          <Image src="/Atlassian.svg" width={40} height={40} alt="" />
+          <Image src="/chevron.svg" width={20} height={20} alt="" />
+        </div>
+      </div>
     </div>
   );
 };
