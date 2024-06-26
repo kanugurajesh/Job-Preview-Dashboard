@@ -1,6 +1,6 @@
 const LeftSidebar = () => {
   return (
-    <div>
+    <div className="w-[300px]">
       <h1>Left Sidebar</h1>
     </div>
   );

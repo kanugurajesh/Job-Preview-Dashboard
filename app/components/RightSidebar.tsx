@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const RightSidebar = () => {
   return (
-    <div className="w-[409px] flex items-center pt-[30px]">
+    <div className="w-[409px] flex pt-[30px] px-[24.5px] border-l-[1px] border-[#E7E7E7] bg-[#FCFCFC]">
       <div className="w-[360px] h-[361px] flex flex-col gap-[24px]">
         <div className="flex gap-[16px]">
           <button className="w-[172px] h-[46px] px-[24px] py-[12px] bg-[#FEF4F2] border-[0.8px] flex gap-[10px] items-center justify-center border-[#DC4A2D] rounded-[8px]">
@@ -15,7 +15,37 @@ const RightSidebar = () => {
           </button>
         </div>
         <div className="p-[12px]">
-
+          <div className="w-[336px] h-[42px] flex items-center justify-between">
+            <div className="w-[135px] h-[42px] flex p-[10px] gap-[10px] items-center">
+              <Image src="/users.svg" alt="user" width={20} height={20} />
+              <p className="font-medium text-[16px]">Applicants</p>
+            </div>
+            <p className="text-[20px] font-semibold px-[10px] py-[6px]">400</p>
+          </div>
+          <hr className="solid h-[1px] my-[16px]" />
+          <div className="w-[336px] h-[42px] flex items-center justify-between">
+            <div className="w-[135px] h-[42px] flex p-[10px] gap-[10px] items-center">
+              <Image src="/users.svg" alt="user" width={20} height={20} />
+              <p className="font-medium text-[16px]">Matches</p>
+            </div>
+            <p className="text-[20px] font-semibold px-[10px] py-[6px]">100</p>
+          </div>
+          <hr className="solid h-[1px] my-[16px]" />
+          <div className="w-[336px] h-[42px] flex items-center justify-between">
+            <div className="w-[135px] h-[42px] flex p-[10px] gap-[10px] items-center">
+              <Image src="/users.svg" alt="user" width={20} height={20} />
+              <p className="font-medium text-[16px]">Applicants</p>
+            </div>
+            <p className="text-[20px] font-semibold px-[10px] py-[6px]">147</p>
+          </div>
+          <hr className="solid h-[1px] my-[16px]" />
+          <div className="w-[336px] h-[42px] flex items-center justify-between">
+            <div className="w-[135px] h-[42px] flex p-[10px] gap-[10px] items-center">
+              <Image src="/users.svg" alt="user" width={20} height={20} />
+              <p className="font-medium text-[16px]">Applicants</p>
+            </div>
+            <p className="text-[20px] font-semibold px-[10px] py-[6px]">800</p>
+          </div>
         </div>
       </div>
     </div>

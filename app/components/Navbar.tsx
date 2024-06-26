@@ -5,8 +5,6 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [num, setNum] = useState(2);
-  // log window size in pixels
-  console.log(window.innerWidth, window.innerHeight)
   return (
     <div className="h-[109px] px-[32px] py-[24px] flex">
       <div className="w-[100px] h-[61px] bg-[#E7E7E7] px-[28px] py-[9px] text-[#DC4A2D] font-bold flex items-center justify-center text-[20px]">
