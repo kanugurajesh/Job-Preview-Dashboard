@@ -5,7 +5,7 @@ import { useState } from "react";
 const List = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className="h-[67px] border-[1px] border-[#E7E7E7] border-b-[2px] flex items-center pl-[88px] text-[20px]">
+    <div className="h-[67px] border-[1px] border-[#E7E7E7] border-b-[2px] flex items-center pl-[100px] text-[20px]">
       <ul className="w-[590px] h-[27px] flex justify-between text-[#888888] relative">
         <li
           onClick={() => setActiveTab(0)}

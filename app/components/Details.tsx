@@ -3,7 +3,7 @@ import RightSidebar from "./RightSidebar";
 
 const Details = () => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex justify-between">
       <LeftSidebar />
       <RightSidebar />
     </div>
