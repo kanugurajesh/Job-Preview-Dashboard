@@ -18,33 +18,33 @@ const RightSidebar = () => {
           <div className="w-[336px] h-[42px] flex items-center justify-between">
             <div className="w-[135px] h-[42px] flex p-[10px] gap-[10px] items-center">
               <Image src="/users.svg" alt="user" width={20} height={20} />
-              <p className="font-medium text-[16px]">Applicants</p>
+              <p className="font-medium text-[16px] text-[#4F4F4F]">Applicants</p>
             </div>
-            <p className="text-[20px] font-semibold px-[10px] py-[6px]">400</p>
+            <p className="text-[20px] font-semibold px-[10px] py-[6px] text-[#3D3D3D]">400</p>
           </div>
           <hr className="solid h-[1px] my-[16px]" />
           <div className="w-[336px] h-[42px] flex items-center justify-between">
             <div className="w-[135px] h-[42px] flex p-[10px] gap-[10px] items-center">
-              <Image src="/users.svg" alt="user" width={20} height={20} />
-              <p className="font-medium text-[16px]">Matches</p>
+              <Image src="/user-check.svg" alt="user" width={20} height={20} />
+              <p className="font-medium text-[16px] text-[#4F4F4F]">Matches</p>
             </div>
-            <p className="text-[20px] font-semibold px-[10px] py-[6px]">100</p>
+            <p className="text-[20px] font-semibold px-[10px] py-[6px] text-[#3D3D3D]">100</p>
           </div>
           <hr className="solid h-[1px] my-[16px]" />
           <div className="w-[336px] h-[42px] flex items-center justify-between">
             <div className="w-[135px] h-[42px] flex p-[10px] gap-[10px] items-center">
-              <Image src="/users.svg" alt="user" width={20} height={20} />
-              <p className="font-medium text-[16px]">Applicants</p>
+              <Image src="/message-square-01.svg" alt="user" width={20} height={20} />
+              <p className="font-medium text-[16px] text-[#4F4F4F]">Messages</p>
             </div>
-            <p className="text-[20px] font-semibold px-[10px] py-[6px]">147</p>
+            <p className="text-[20px] font-semibold px-[10px] py-[6px] text-[#3D3D3D]">147</p>
           </div>
           <hr className="solid h-[1px] my-[16px]" />
           <div className="w-[336px] h-[42px] flex items-center justify-between">
             <div className="w-[135px] h-[42px] flex p-[10px] gap-[10px] items-center">
-              <Image src="/users.svg" alt="user" width={20} height={20} />
-              <p className="font-medium text-[16px]">Applicants</p>
+              <Image src="/eye.svg" alt="user" width={20} height={20} />
+              <p className="font-medium text-[16px] text-[#4F4F4F]">Views</p>
             </div>
-            <p className="text-[20px] font-semibold px-[10px] py-[6px]">800</p>
+            <p className="text-[20px] font-semibold px-[10px] py-[6px] text-[#3D3D3D]">800</p>
           </div>
         </div>
       </div>
